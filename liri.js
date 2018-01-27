@@ -76,7 +76,7 @@ function getSong(song) {
 		}]).then(answers => {
 			if (!answers.song) {
 				//if they don't answer
-				answers.song = "All The Small Things";
+				answers.song = "The Sign Ace of Base";
 			}
 			showSong(answers.song);
 		})
